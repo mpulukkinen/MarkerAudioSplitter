@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\CodeProjects\AudioSplitter\AudioSplitterNet\obj\x64\Debug\
+C:\CodeProjects\AudioSplitter\AudioSplitterNet\obj\x64\Release\
 AudioSplitterNet
 none
 false
-DEBUG;TRACE
+TRACE
 C:\CodeProjects\AudioSplitter\AudioSplitterNet\App.xaml
 2-281575096
 1-2138471434

@@ -1,5 +1,4 @@
-﻿using Log_Easy;
-//using Microsoft.Win32;
+﻿//using Microsoft.Win32;
 using NAudio.Wave;
 using System;
 using System.Collections.Generic;
@@ -17,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Forms;
+using NLog;
 
 namespace AudioSplitterNet
 {
@@ -25,7 +25,7 @@ namespace AudioSplitterNet
     /// </summary>
     public partial class MainWindow : Window
     {
-        private static clsLogger log = new clsLogger(Environment.CurrentDirectory + "\\log" + DateTime.Now.ToString("yyyyMMdd") + ".log");
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         private bool _cancel;
         private bool _firstLog = true;
@@ -57,9 +57,8 @@ namespace AudioSplitterNet
 
         private void CurrentDomain_FirstChanceException(object sender, System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs e)
         {
-            Log(e.Exception.ToString());
+            Log(e.Exception.ToString(), true);
         }
-
         
         private void CheckFile(Object stateInfo)
         {
@@ -99,12 +98,10 @@ namespace AudioSplitterNet
 
         private void MainWindow_Unloaded(object sender, RoutedEventArgs e)
         {
-            Log("");
             Unloaded -= MainWindow_Unloaded;
             AppDomain.CurrentDomain.FirstChanceException -= CurrentDomain_FirstChanceException;
             _timer.Dispose();
             _timer = null;
-            Log("********END SESSION*****");
         }
 
         private void SelectWavButton_Click(object sender, RoutedEventArgs e)
@@ -378,7 +375,7 @@ namespace AudioSplitterNet
 
                 if (target.Name == WavFile.Name && string.IsNullOrEmpty(OutputFolder.Text))
                 {
-                    OutputFolder.Text = (new FileInfo(target.Text)).DirectoryName;
+                    OutputFolder.Text = (new FileInfo(openFileDialog.FileName)).DirectoryName;
                     Properties.Settings.Default[OutputFolder.Name] = OutputFolder.Text;
                 }
 
@@ -405,7 +402,7 @@ namespace AudioSplitterNet
         private void SouceForge_Click(object sender, RoutedEventArgs e)
         {
             Log("");
-            System.Diagnostics.Process.Start("http://www.ultimatium.com");
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/marker-audio-splitter/");
         }
 
         private void ClosePopup_Click(object sender, RoutedEventArgs e)
@@ -446,17 +443,20 @@ namespace AudioSplitterNet
         }
 
         private void Log(string text,
+            bool fatal = false,
             [System.Runtime.CompilerServices.CallerMemberName] string memberName = "",
             [System.Runtime.CompilerServices.CallerLineNumber] int sourceLineNumber = 0)
         {
+
             if (_firstLog)
             {
-                log.Info("***************************************");
-                log.Info("*********** New session ***************");
-                log.Info("***************************************");
+                logger.Info("***************************************");
+                logger.Info("*********** New session ***************");
+                logger.Info("***************************************");
                 _firstLog = false;
 
             }
+
             var startString = $"{DateTime.Now}, {memberName}, line {sourceLineNumber}:";
 
             for (int i = startString.Length; i < 50; i++)
@@ -466,7 +466,14 @@ namespace AudioSplitterNet
 
             startString += "> ";
 
-            log.Info($"{startString} {text}");
+            if(fatal)
+            {
+                logger.Info($"{startString} {text}");
+            }
+            else
+            {
+                logger.Error($"{startString} {text}");
+            }
         }
     }
 }

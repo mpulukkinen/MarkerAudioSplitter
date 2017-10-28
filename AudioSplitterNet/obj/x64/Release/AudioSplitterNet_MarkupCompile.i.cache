@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Release\
+C:\CodeProjects\AudioSplitter\AudioSplitterNet\obj\x64\Release\
 AudioSplitterNet
 none
 false
 TRACE
-D:\Ultimatium\AudioSplitter\AudioSplitterNet\App.xaml
+C:\CodeProjects\AudioSplitter\AudioSplitterNet\App.xaml
 2-281575096
-
-101256906023
-16637989844
+1-2138471434
+101096234620
+16-613140386
 MainWindow.xaml;Themes\ExpressionDark.xaml;
 
 True

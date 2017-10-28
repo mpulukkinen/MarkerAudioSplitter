@@ -5,38 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AudioSplitterNet"
         mc:Ignorable="d"
-        ResizeMode="CanMinimize"
         Title="Marker audio splitter v1.0" Height="450" Width="525">
 <Grid Background="Silver">
     <Grid.RowDefinitions>
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
     </Grid.RowDefinitions>
-        <StackPanel Orientation="Vertical" Grid.Row="0">
-            <StackPanel Orientation="Vertical" x:Name="MainPanel">
-                <StackPanel Orientation="Horizontal">
-                    <Button Content="Select wav file" Click="SelectWavButton_Click" Margin="12"/>
-                    <TextBlock x:Name="WavFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" Grid.Row="0">
+                <StackPanel Orientation="Vertical" x:Name="MainPanel">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Select wav file" Click="SelectWavButton_Click" Margin="12"/>
+                        <TextBlock x:Name="WavFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Select txt file" Click="SelectTxtButton_Click" Margin="12"/>
+                        <TextBlock x:Name="TxtFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Output folder" Click="OutputFolderClick" Margin="12"/>
+                        <TextBlock x:Name="OutputFolder" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                    </StackPanel>
+
+                    <CheckBox x:Name="MonitorChanges" Margin="12" Content="Monitor changes in audio file and automatically split when changes?"/>
+
+                    <Button Content="SPLIT" Click="SplitButton_Click" Margin="12"/>
+
+                    <TextBlock x:Name="Progress" Text="" VerticalAlignment="Center" Margin="12, 0, 12, 0"/>                
                 </StackPanel>
-
-                <StackPanel Orientation="Horizontal">
-                    <Button Content="Select txt file" Click="SelectTxtButton_Click" Margin="12"/>
-                    <TextBlock x:Name="TxtFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal">
-                    <Button Content="Output folder" Click="OutputFolderClick" Margin="12"/>
-                    <TextBlock x:Name="OutputFolder" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
-                </StackPanel>
-
-                <CheckBox x:Name="MonitorChanges" Margin="12" Content="Monitor changes in audio file and automatically split when changes?"/>
-
-                <Button Content="SPLIT" Click="SplitButton_Click" Margin="12"/>
-
-                <TextBlock x:Name="Progress" Text="" VerticalAlignment="Center" Margin="12, 0, 12, 0"/>                
+                <Button Content="Cancel" Click="CancelButtonClick" Visibility="Collapsed" Margin="12" x:Name="CancelButton"/>
             </StackPanel>
-            <Button Content="Cancel" Click="CancelButtonClick" Visibility="Collapsed" Margin="12" x:Name="CancelButton"/>
-        </StackPanel>
+        </ScrollViewer>
 
         <Border BorderThickness="2" Grid.Row="1" BorderBrush="Black">
             <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
