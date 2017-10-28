@@ -1,0 +1,764 @@
+28/10/2017 08:32 TimeStamp
+Mainwindow starting
+SplitButton_Click
+SplitButton_Click
+SplitButton_Click
+SplitButton_Click
+28/10/2017 08:36 TimeStamp
+Mainwindow starting
+SplitButton_Click
+Error from Process: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.VerifyAccess()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Controls.TextBlock.get_Text()
+   at AudioSplitterNet.MainWindow.<Process>d__7.MoveNext() in D:\Ultimatium\AudioSplitter\AudioSplitterNet\MainWindow.xaml.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at AudioSplitterNet.MainWindow.<<SplitButton_Click>b__5_0>d.MoveNext() in D:\Ultimatium\AudioSplitter\AudioSplitterNet\MainWindow.xaml.cs:line 61
+28/10/2017 08:43 TimeStamp
+Mainwindow starting
+SplitButton_Click
+Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+Found timeformat code: 30
+Found M A R K E R S  L I S T I N G
+Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+End stringfound, use it, index 13
+EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+final endTime 01:05:23.4750000
+Song name: 4. Mindcaptives               
+Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 08:44 TimeStamp
+Mainwindow starting
+SplitButton_Click
+Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+Found timeformat code: 30
+Found M A R K E R S  L I S T I N G
+Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+End stringfound, use it, index 13
+EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+final endTime 01:05:23.4750000
+Song name: 4. Mindcaptives               
+Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 08:46 TimeStamp
+Mainwindow starting
+SplitButton_Click
+Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+Found timeformat code: 30
+Found M A R K E R S  L I S T I N G
+Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+End stringfound, use it, index 13
+EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+final endTime 01:05:23.4750000
+Song name: 4. Mindcaptives               
+Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 08:47 TimeStamp
+Mainwindow starting
+28/10/2017 08:51 TimeStamp
+28/10/2017 08:51:54, 33, line 33: Mainwindow starting
+28/10/2017 08:55 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 08:55:54, .ctor, line 34: Mainwindow starting
+28/10/2017 08:58 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 08:58:06, .ctor, line 34:>  Mainwindow starting
+28/10/2017 08:58 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 08:58:26, .ctor, line 34:>  Mainwindow starting
+28/10/2017 08:58 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 08:58:42, .ctor, line 34:-------------->  Mainwindow starting
+28/10/2017 09:36 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 09:36:04, .ctor, line 34:-------------->  Mainwindow starting
+28/10/2017 09:42 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 09:42:40, .ctor, line 34:-------------->  Mainwindow starting
+28/10/2017 09:43 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 09:43:47, .ctor, line 34:-------------->  Mainwindow starting
+28/10/2017 10:23 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:23:51, .ctor, line 36:-------------->  Mainwindow starting
+28/10/2017 10:25 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:25:39, .ctor, line 36:-------------->  Mainwindow starting
+28/10/2017 10:25:52, SelectWavButton_Click, line 47:>  SelectWavButton_Click
+28/10/2017 10:31 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:31:07, .ctor, line 36:-------------->  Mainwindow starting
+28/10/2017 10:31:10, SelectWavButton_Click, line 47:>  SelectWavButton_Click
+28/10/2017 10:31:15, SelectWavButton_Click, line 47:>  SelectWavButton_Click
+28/10/2017 10:32 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:32:19, .ctor, line 36:-------------->  Mainwindow starting
+28/10/2017 10:32:21, SelectWavButton_Click, line 47:>  SelectWavButton_Click
+28/10/2017 10:34 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:34:34, .ctor, line 36:-------------->  
+28/10/2017 10:35 TimeStamp
+28/10/2017 10:35 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:35:46, .ctor, line 36:-------------->  
+28/10/2017 10:35:48, SelectWavButton_Click, line 47:>  
+28/10/2017 10:35:48, ShowOpenFile, line 261:------>  
+28/10/2017 10:35:55, ShowOpenFile, line 276:------>  Target: WavFile, file: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+28/10/2017 10:35:58, OutputFolderClick, line 365:->  
+28/10/2017 10:36:32, SelectWavButton_Click, line 47:>  
+28/10/2017 10:36:32, ShowOpenFile, line 261:------>  
+28/10/2017 10:36 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:36:52, .ctor, line 36:-------------->  
+28/10/2017 10:37 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:37:23, .ctor, line 36:-------------->  
+28/10/2017 10:37:25, SelectWavButton_Click, line 47:>  
+28/10/2017 10:37:25, ShowOpenFile, line 261:------>  
+28/10/2017 10:37:34, OutputFolderClick, line 361:->  
+28/10/2017 10:38 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:38:13, .ctor, line 36:-------------->  
+28/10/2017 10:38:17, OutputFolderClick, line 361:->  
+28/10/2017 10:40:16, SplitButton_Click, line 59:-->  
+28/10/2017 10:40:16, Process, line 81:------------>  
+28/10/2017 10:40:16, Process, line 96:------------>  Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+28/10/2017 10:40:16, ProcessProToolsFile, line 129:>  
+28/10/2017 10:40:16, ProcessProToolsFile, line 218:>  Found timeformat code: 30
+28/10/2017 10:40:16, ProcessProToolsFile, line 223:>  Found M A R K E R S  L I S T I N G
+28/10/2017 10:40:16, TimecodeToTimespan, line 252:>  
+28/10/2017 10:40:16, ProcessProToolsFile, line 149:>  Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+28/10/2017 10:40:16, ProcessProToolsFile, line 168:>  End stringfound, use it, index 13
+28/10/2017 10:40:16, TimecodeToTimespan, line 252:>  
+28/10/2017 10:40:16, ProcessProToolsFile, line 177:>  EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+28/10/2017 10:40:16, ProcessProToolsFile, line 179:>  final endTime 01:05:23.4750000
+28/10/2017 10:40:16, ProcessProToolsFile, line 189:>  Song name: 4. Mindcaptives               
+28/10/2017 10:40:16, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:40:16, ProcessProToolsFile, line 200:>  destinationFileName: 4.Mindcaptives
+28/10/2017 10:40:51, ProcessProToolsFile, line 204:>  destinationFileName: 4.Mindcaptives
+28/10/2017 10:40:51, TimecodeToTimespan, line 252:>  
+28/10/2017 10:40:51, ProcessProToolsFile, line 149:>  Found start at index 14, whole line: 2   	00:12:19:19  	344|1             	Ticks    	[s]10. Ghost of yesterday        	, splitted at 4: [s]10. Ghost of yesterday        , start time: 00:12:19.6330000
+28/10/2017 10:40:51, ProcessProToolsFile, line 161:>  Start string before next end, use it, index 15
+28/10/2017 10:40:51, TimecodeToTimespan, line 252:>  
+28/10/2017 10:40:51, ProcessProToolsFile, line 177:>  EndTime 00:17:27.2660000, tolta time: 01:17:03.8080000
+28/10/2017 10:40:51, ProcessProToolsFile, line 179:>  final endTime 00:59:36.5420000
+28/10/2017 10:40:51, ProcessProToolsFile, line 189:>  Song name: 10. Ghost of yesterday        
+28/10/2017 10:40:51, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:40:51, ProcessProToolsFile, line 200:>  destinationFileName: 10.Ghostofyesterday
+28/10/2017 10:41:05, ProcessProToolsFile, line 204:>  destinationFileName: 10.Ghostofyesterday
+28/10/2017 10:41:05, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:05, ProcessProToolsFile, line 149:>  Found start at index 15, whole line: 3   	00:17:27:08  	485|1             	Ticks    	[s]12. Together                  	, splitted at 4: [s]12. Together                  , start time: 00:17:27.2660000
+28/10/2017 10:41:05, ProcessProToolsFile, line 161:>  Start string before next end, use it, index 16
+28/10/2017 10:41:05, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:05, ProcessProToolsFile, line 177:>  EndTime 00:26:18.2660000, tolta time: 01:17:03.8080000
+28/10/2017 10:41:05, ProcessProToolsFile, line 179:>  final endTime 00:50:45.5420000
+28/10/2017 10:41:05, ProcessProToolsFile, line 189:>  Song name: 12. Together                  
+28/10/2017 10:41:05, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:41:05, ProcessProToolsFile, line 200:>  destinationFileName: 12.Together
+28/10/2017 10:41:34, ProcessProToolsFile, line 204:>  destinationFileName: 12.Together
+28/10/2017 10:41:34, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:34, ProcessProToolsFile, line 149:>  Found start at index 16, whole line: 4   	00:26:18:08  	915|1             	Ticks    	[s]5. The seer                   	, splitted at 4: [s]5. The seer                   , start time: 00:26:18.2660000
+28/10/2017 10:41:34, ProcessProToolsFile, line 168:>  End stringfound, use it, index 17
+28/10/2017 10:41:34, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:34, ProcessProToolsFile, line 177:>  EndTime 00:31:09.5330000, tolta time: 01:17:03.8080000
+28/10/2017 10:41:34, ProcessProToolsFile, line 179:>  final endTime 00:45:54.2750000
+28/10/2017 10:41:34, ProcessProToolsFile, line 189:>  Song name: 5. The seer                   
+28/10/2017 10:41:34, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:41:34, ProcessProToolsFile, line 200:>  destinationFileName: 5.Theseer
+28/10/2017 10:41:48, ProcessProToolsFile, line 204:>  destinationFileName: 5.Theseer
+28/10/2017 10:41:48, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:48, ProcessProToolsFile, line 149:>  Found start at index 18, whole line: 5   	00:31:21:16  	1209|1            	Ticks    	[s]2. Run like the wind          	, splitted at 4: [s]2. Run like the wind          , start time: 00:31:21.5330000
+28/10/2017 10:41:48, ProcessProToolsFile, line 168:>  End stringfound, use it, index 19
+28/10/2017 10:41:48, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:48, ProcessProToolsFile, line 177:>  EndTime 00:35:05.0660000, tolta time: 01:17:03.8080000
+28/10/2017 10:41:48, ProcessProToolsFile, line 179:>  final endTime 00:41:58.7420000
+28/10/2017 10:41:48, ProcessProToolsFile, line 189:>  Song name: 2. Run like the wind          
+28/10/2017 10:41:48, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:41:48, ProcessProToolsFile, line 200:>  destinationFileName: 2.Runlikethewind
+28/10/2017 10:41:57, ProcessProToolsFile, line 204:>  destinationFileName: 2.Runlikethewind
+28/10/2017 10:41:57, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:57, ProcessProToolsFile, line 149:>  Found start at index 20, whole line: 6   	00:36:56:03  	1385|1            	Ticks    	[s]6. Dark cold day              	, splitted at 4: [s]6. Dark cold day              , start time: 00:36:56.1000000
+28/10/2017 10:41:57, ProcessProToolsFile, line 168:>  End stringfound, use it, index 21
+28/10/2017 10:41:57, TimecodeToTimespan, line 252:>  
+28/10/2017 10:41:57, ProcessProToolsFile, line 177:>  EndTime 00:42:33.9660000, tolta time: 01:17:03.8080000
+28/10/2017 10:41:57, ProcessProToolsFile, line 179:>  final endTime 00:34:29.8420000
+28/10/2017 10:41:57, ProcessProToolsFile, line 189:>  Song name: 6. Dark cold day              
+28/10/2017 10:41:57, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:41:57, ProcessProToolsFile, line 200:>  destinationFileName: 6.Darkcoldday
+28/10/2017 10:42:16, ProcessProToolsFile, line 204:>  destinationFileName: 6.Darkcoldday
+28/10/2017 10:42:16, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:16, ProcessProToolsFile, line 149:>  Found start at index 22, whole line: 7   	00:42:41:10  	1583|1            	Ticks    	[s]7. Remorse                    	, splitted at 4: [s]7. Remorse                    , start time: 00:42:41.3330000
+28/10/2017 10:42:16, ProcessProToolsFile, line 168:>  End stringfound, use it, index 23
+28/10/2017 10:42:16, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:16, ProcessProToolsFile, line 177:>  EndTime 00:47:34.6660000, tolta time: 01:17:03.8080000
+28/10/2017 10:42:16, ProcessProToolsFile, line 179:>  final endTime 00:29:29.1420000
+28/10/2017 10:42:16, ProcessProToolsFile, line 189:>  Song name: 7. Remorse                    
+28/10/2017 10:42:16, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:42:16, ProcessProToolsFile, line 200:>  destinationFileName: 7.Remorse
+28/10/2017 10:42:28, ProcessProToolsFile, line 204:>  destinationFileName: 7.Remorse
+28/10/2017 10:42:28, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:28, ProcessProToolsFile, line 149:>  Found start at index 24, whole line: 8   	00:47:42:01  	1746|1            	Ticks    	[s]11. Scream                    	, splitted at 4: [s]11. Scream                    , start time: 00:47:42.0330000
+28/10/2017 10:42:28, ProcessProToolsFile, line 168:>  End stringfound, use it, index 25
+28/10/2017 10:42:28, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:28, ProcessProToolsFile, line 177:>  EndTime 00:52:37.1000000, tolta time: 01:17:03.8080000
+28/10/2017 10:42:28, ProcessProToolsFile, line 179:>  final endTime 00:24:26.7080000
+28/10/2017 10:42:28, ProcessProToolsFile, line 189:>  Song name: 11. Scream                    
+28/10/2017 10:42:28, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:42:28, ProcessProToolsFile, line 200:>  destinationFileName: 11.Scream
+28/10/2017 10:42:40, ProcessProToolsFile, line 204:>  destinationFileName: 11.Scream
+28/10/2017 10:42:40, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:40, ProcessProToolsFile, line 149:>  Found start at index 26, whole line: 9   	00:52:58:08  	1990|1            	Ticks    	[s]1. Vengeance                  	, splitted at 4: [s]1. Vengeance                  , start time: 00:52:58.2660000
+28/10/2017 10:42:40, ProcessProToolsFile, line 161:>  Start string before next end, use it, index 27
+28/10/2017 10:42:40, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:40, ProcessProToolsFile, line 177:>  EndTime 00:56:54.8330000, tolta time: 01:17:03.8080000
+28/10/2017 10:42:40, ProcessProToolsFile, line 179:>  final endTime 00:20:08.9750000
+28/10/2017 10:42:40, ProcessProToolsFile, line 189:>  Song name: 1. Vengeance                  
+28/10/2017 10:42:40, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:42:40, ProcessProToolsFile, line 200:>  destinationFileName: 1.Vengeance
+28/10/2017 10:42:50, ProcessProToolsFile, line 204:>  destinationFileName: 1.Vengeance
+28/10/2017 10:42:50, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:50, ProcessProToolsFile, line 149:>  Found start at index 27, whole line: 10  	00:56:54:25  	2128|1            	Ticks    	[s]9. Digital tower              	, splitted at 4: [s]9. Digital tower              , start time: 00:56:54.8330000
+28/10/2017 10:42:50, ProcessProToolsFile, line 161:>  Start string before next end, use it, index 28
+28/10/2017 10:42:50, TimecodeToTimespan, line 252:>  
+28/10/2017 10:42:50, ProcessProToolsFile, line 177:>  EndTime 01:05:18.8330000, tolta time: 01:17:03.8080000
+28/10/2017 10:42:50, ProcessProToolsFile, line 179:>  final endTime 00:11:44.9750000
+28/10/2017 10:42:50, ProcessProToolsFile, line 189:>  Song name: 9. Digital tower              
+28/10/2017 10:42:50, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:42:50, ProcessProToolsFile, line 200:>  destinationFileName: 9.Digitaltower
+28/10/2017 10:43:11, ProcessProToolsFile, line 204:>  destinationFileName: 9.Digitaltower
+28/10/2017 10:43:11, TimecodeToTimespan, line 252:>  
+28/10/2017 10:43:11, ProcessProToolsFile, line 149:>  Found start at index 28, whole line: 11  	01:05:18:25  	2296|1            	Ticks    	[s]3. Hall of Heroes             	Start, splitted at 4: [s]3. Hall of Heroes             , start time: 01:05:18.8330000
+28/10/2017 10:43:11, ProcessProToolsFile, line 161:>  Start string before next end, use it, index 29
+28/10/2017 10:43:11, TimecodeToTimespan, line 252:>  
+28/10/2017 10:43:11, ProcessProToolsFile, line 177:>  EndTime 01:08:25.8660000, tolta time: 01:17:03.8080000
+28/10/2017 10:43:11, ProcessProToolsFile, line 179:>  final endTime 00:08:37.9420000
+28/10/2017 10:43:11, ProcessProToolsFile, line 189:>  Song name: 3. Hall of Heroes             
+28/10/2017 10:43:11, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:43:11, ProcessProToolsFile, line 200:>  destinationFileName: 3.HallofHeroes
+28/10/2017 10:43:19, ProcessProToolsFile, line 204:>  destinationFileName: 3.HallofHeroes
+28/10/2017 10:43:19, TimecodeToTimespan, line 252:>  
+28/10/2017 10:43:19, ProcessProToolsFile, line 149:>  Found start at index 29, whole line: 12  	01:08:25:26  	2406|1            	Ticks    	[s]8. (Don't) fear the silence   	, splitted at 4: [s]8. (Don't) fear the silence   , start time: 01:08:25.8660000
+28/10/2017 10:43:19, ProcessProToolsFile, line 168:>  End stringfound, use it, index 30
+28/10/2017 10:43:19, TimecodeToTimespan, line 252:>  
+28/10/2017 10:43:19, ProcessProToolsFile, line 177:>  EndTime 01:13:11.7000000, tolta time: 01:17:03.8080000
+28/10/2017 10:43:19, ProcessProToolsFile, line 179:>  final endTime 00:03:52.1080000
+28/10/2017 10:43:19, ProcessProToolsFile, line 189:>  Song name: 8. (Don't) fear the silence   
+28/10/2017 10:43:19, ProcessProToolsFile, line 196:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:43:19, ProcessProToolsFile, line 200:>  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 10:43:32, ProcessProToolsFile, line 204:>  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 10:43:32, Process, line 113:----------->  Processing completed, time in seconds: 195.6903217s
+28/10/2017 10:45 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:45:49, .ctor, line 36:-------------->  
+28/10/2017 10:46 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:46:16, .ctor, line 36:-------------->  
+28/10/2017 10:46:22, SplitButton_Click, line 59:-->  
+28/10/2017 10:46:22, Process, line 82:------------>  
+28/10/2017 10:46:22, Process, line 97:------------>  Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+28/10/2017 10:46:22, ProcessProToolsFile, line 133:>  
+28/10/2017 10:46:22, ProcessProToolsFile, line 222:>  Found timeformat code: 30
+28/10/2017 10:46:22, ProcessProToolsFile, line 227:>  Found M A R K E R S  L I S T I N G
+28/10/2017 10:46:22, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:22, ProcessProToolsFile, line 153:>  Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+28/10/2017 10:46:22, ProcessProToolsFile, line 172:>  End stringfound, use it, index 13
+28/10/2017 10:46:22, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:22, ProcessProToolsFile, line 181:>  EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+28/10/2017 10:46:22, ProcessProToolsFile, line 183:>  final endTime 01:05:23.4750000
+28/10/2017 10:46:22, ProcessProToolsFile, line 193:>  Song name: 4. Mindcaptives               
+28/10/2017 10:46:22, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:46:22, ProcessProToolsFile, line 204:>  destinationFileName: 4.Mindcaptives
+28/10/2017 10:46:42, ProcessProToolsFile, line 208:>  destinationFileName: 4.Mindcaptives
+28/10/2017 10:46:42, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:42, ProcessProToolsFile, line 153:>  Found start at index 14, whole line: 2   	00:12:19:19  	344|1             	Ticks    	[s]10. Ghost of yesterday        	, splitted at 4: [s]10. Ghost of yesterday        , start time: 00:12:19.6330000
+28/10/2017 10:46:42, ProcessProToolsFile, line 165:>  Start string before next end, use it, index 15
+28/10/2017 10:46:42, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:42, ProcessProToolsFile, line 181:>  EndTime 00:17:27.2660000, tolta time: 01:17:03.8080000
+28/10/2017 10:46:42, ProcessProToolsFile, line 183:>  final endTime 00:59:36.5420000
+28/10/2017 10:46:42, ProcessProToolsFile, line 193:>  Song name: 10. Ghost of yesterday        
+28/10/2017 10:46:42, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:46:42, ProcessProToolsFile, line 204:>  destinationFileName: 10.Ghostofyesterday
+28/10/2017 10:46:51, ProcessProToolsFile, line 208:>  destinationFileName: 10.Ghostofyesterday
+28/10/2017 10:46:51, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:51, ProcessProToolsFile, line 153:>  Found start at index 15, whole line: 3   	00:17:27:08  	485|1             	Ticks    	[s]12. Together                  	, splitted at 4: [s]12. Together                  , start time: 00:17:27.2660000
+28/10/2017 10:46:51, ProcessProToolsFile, line 165:>  Start string before next end, use it, index 16
+28/10/2017 10:46:51, TimecodeToTimespan, line 256:>  
+28/10/2017 10:46:51, ProcessProToolsFile, line 181:>  EndTime 00:26:18.2660000, tolta time: 01:17:03.8080000
+28/10/2017 10:46:51, ProcessProToolsFile, line 183:>  final endTime 00:50:45.5420000
+28/10/2017 10:46:51, ProcessProToolsFile, line 193:>  Song name: 12. Together                  
+28/10/2017 10:46:51, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:46:51, ProcessProToolsFile, line 204:>  destinationFileName: 12.Together
+28/10/2017 10:47:06, ProcessProToolsFile, line 208:>  destinationFileName: 12.Together
+28/10/2017 10:47:06, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:06, ProcessProToolsFile, line 153:>  Found start at index 16, whole line: 4   	00:26:18:08  	915|1             	Ticks    	[s]5. The seer                   	, splitted at 4: [s]5. The seer                   , start time: 00:26:18.2660000
+28/10/2017 10:47:06, ProcessProToolsFile, line 172:>  End stringfound, use it, index 17
+28/10/2017 10:47:06, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:06, ProcessProToolsFile, line 181:>  EndTime 00:31:09.5330000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:06, ProcessProToolsFile, line 183:>  final endTime 00:45:54.2750000
+28/10/2017 10:47:06, ProcessProToolsFile, line 193:>  Song name: 5. The seer                   
+28/10/2017 10:47:06, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:06, ProcessProToolsFile, line 204:>  destinationFileName: 5.Theseer
+28/10/2017 10:47:14, ProcessProToolsFile, line 208:>  destinationFileName: 5.Theseer
+28/10/2017 10:47:14, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:14, ProcessProToolsFile, line 153:>  Found start at index 18, whole line: 5   	00:31:21:16  	1209|1            	Ticks    	[s]2. Run like the wind          	, splitted at 4: [s]2. Run like the wind          , start time: 00:31:21.5330000
+28/10/2017 10:47:14, ProcessProToolsFile, line 172:>  End stringfound, use it, index 19
+28/10/2017 10:47:14, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:14, ProcessProToolsFile, line 181:>  EndTime 00:35:05.0660000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:14, ProcessProToolsFile, line 183:>  final endTime 00:41:58.7420000
+28/10/2017 10:47:14, ProcessProToolsFile, line 193:>  Song name: 2. Run like the wind          
+28/10/2017 10:47:14, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:14, ProcessProToolsFile, line 204:>  destinationFileName: 2.Runlikethewind
+28/10/2017 10:47:20, ProcessProToolsFile, line 208:>  destinationFileName: 2.Runlikethewind
+28/10/2017 10:47:20, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:20, ProcessProToolsFile, line 153:>  Found start at index 20, whole line: 6   	00:36:56:03  	1385|1            	Ticks    	[s]6. Dark cold day              	, splitted at 4: [s]6. Dark cold day              , start time: 00:36:56.1000000
+28/10/2017 10:47:20, ProcessProToolsFile, line 172:>  End stringfound, use it, index 21
+28/10/2017 10:47:20, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:20, ProcessProToolsFile, line 181:>  EndTime 00:42:33.9660000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:20, ProcessProToolsFile, line 183:>  final endTime 00:34:29.8420000
+28/10/2017 10:47:20, ProcessProToolsFile, line 193:>  Song name: 6. Dark cold day              
+28/10/2017 10:47:20, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:20, ProcessProToolsFile, line 204:>  destinationFileName: 6.Darkcoldday
+28/10/2017 10:47:30, ProcessProToolsFile, line 208:>  destinationFileName: 6.Darkcoldday
+28/10/2017 10:47:30, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:30, ProcessProToolsFile, line 153:>  Found start at index 22, whole line: 7   	00:42:41:10  	1583|1            	Ticks    	[s]7. Remorse                    	, splitted at 4: [s]7. Remorse                    , start time: 00:42:41.3330000
+28/10/2017 10:47:30, ProcessProToolsFile, line 172:>  End stringfound, use it, index 23
+28/10/2017 10:47:30, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:30, ProcessProToolsFile, line 181:>  EndTime 00:47:34.6660000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:30, ProcessProToolsFile, line 183:>  final endTime 00:29:29.1420000
+28/10/2017 10:47:30, ProcessProToolsFile, line 193:>  Song name: 7. Remorse                    
+28/10/2017 10:47:30, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:30, ProcessProToolsFile, line 204:>  destinationFileName: 7.Remorse
+28/10/2017 10:47:38, ProcessProToolsFile, line 208:>  destinationFileName: 7.Remorse
+28/10/2017 10:47:38, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:38, ProcessProToolsFile, line 153:>  Found start at index 24, whole line: 8   	00:47:42:01  	1746|1            	Ticks    	[s]11. Scream                    	, splitted at 4: [s]11. Scream                    , start time: 00:47:42.0330000
+28/10/2017 10:47:38, ProcessProToolsFile, line 172:>  End stringfound, use it, index 25
+28/10/2017 10:47:38, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:38, ProcessProToolsFile, line 181:>  EndTime 00:52:37.1000000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:38, ProcessProToolsFile, line 183:>  final endTime 00:24:26.7080000
+28/10/2017 10:47:38, ProcessProToolsFile, line 193:>  Song name: 11. Scream                    
+28/10/2017 10:47:38, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:38, ProcessProToolsFile, line 204:>  destinationFileName: 11.Scream
+28/10/2017 10:47:46, ProcessProToolsFile, line 208:>  destinationFileName: 11.Scream
+28/10/2017 10:47:46, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:46, ProcessProToolsFile, line 153:>  Found start at index 26, whole line: 9   	00:52:58:08  	1990|1            	Ticks    	[s]1. Vengeance                  	, splitted at 4: [s]1. Vengeance                  , start time: 00:52:58.2660000
+28/10/2017 10:47:46, ProcessProToolsFile, line 165:>  Start string before next end, use it, index 27
+28/10/2017 10:47:46, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:46, ProcessProToolsFile, line 181:>  EndTime 00:56:54.8330000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:46, ProcessProToolsFile, line 183:>  final endTime 00:20:08.9750000
+28/10/2017 10:47:46, ProcessProToolsFile, line 193:>  Song name: 1. Vengeance                  
+28/10/2017 10:47:46, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:46, ProcessProToolsFile, line 204:>  destinationFileName: 1.Vengeance
+28/10/2017 10:47:54, ProcessProToolsFile, line 208:>  destinationFileName: 1.Vengeance
+28/10/2017 10:47:54, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:54, ProcessProToolsFile, line 153:>  Found start at index 27, whole line: 10  	00:56:54:25  	2128|1            	Ticks    	[s]9. Digital tower              	, splitted at 4: [s]9. Digital tower              , start time: 00:56:54.8330000
+28/10/2017 10:47:54, ProcessProToolsFile, line 165:>  Start string before next end, use it, index 28
+28/10/2017 10:47:54, TimecodeToTimespan, line 256:>  
+28/10/2017 10:47:54, ProcessProToolsFile, line 181:>  EndTime 01:05:18.8330000, tolta time: 01:17:03.8080000
+28/10/2017 10:47:54, ProcessProToolsFile, line 183:>  final endTime 00:11:44.9750000
+28/10/2017 10:47:54, ProcessProToolsFile, line 193:>  Song name: 9. Digital tower              
+28/10/2017 10:47:54, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:47:54, ProcessProToolsFile, line 204:>  destinationFileName: 9.Digitaltower
+28/10/2017 10:48:07, ProcessProToolsFile, line 208:>  destinationFileName: 9.Digitaltower
+28/10/2017 10:48:07, TimecodeToTimespan, line 256:>  
+28/10/2017 10:48:07, ProcessProToolsFile, line 153:>  Found start at index 28, whole line: 11  	01:05:18:25  	2296|1            	Ticks    	[s]3. Hall of Heroes             	Start, splitted at 4: [s]3. Hall of Heroes             , start time: 01:05:18.8330000
+28/10/2017 10:48:07, ProcessProToolsFile, line 165:>  Start string before next end, use it, index 29
+28/10/2017 10:48:07, TimecodeToTimespan, line 256:>  
+28/10/2017 10:48:07, ProcessProToolsFile, line 181:>  EndTime 01:08:25.8660000, tolta time: 01:17:03.8080000
+28/10/2017 10:48:07, ProcessProToolsFile, line 183:>  final endTime 00:08:37.9420000
+28/10/2017 10:48:07, ProcessProToolsFile, line 193:>  Song name: 3. Hall of Heroes             
+28/10/2017 10:48:07, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:48:07, ProcessProToolsFile, line 204:>  destinationFileName: 3.HallofHeroes
+28/10/2017 10:48:13, ProcessProToolsFile, line 208:>  destinationFileName: 3.HallofHeroes
+28/10/2017 10:48:13, TimecodeToTimespan, line 256:>  
+28/10/2017 10:48:13, ProcessProToolsFile, line 153:>  Found start at index 29, whole line: 12  	01:08:25:26  	2406|1            	Ticks    	[s]8. (Don't) fear the silence   	, splitted at 4: [s]8. (Don't) fear the silence   , start time: 01:08:25.8660000
+28/10/2017 10:48:13, ProcessProToolsFile, line 172:>  End stringfound, use it, index 30
+28/10/2017 10:48:13, TimecodeToTimespan, line 256:>  
+28/10/2017 10:48:13, ProcessProToolsFile, line 181:>  EndTime 01:13:11.7000000, tolta time: 01:17:03.8080000
+28/10/2017 10:48:13, ProcessProToolsFile, line 183:>  final endTime 00:03:52.1080000
+28/10/2017 10:48:13, ProcessProToolsFile, line 193:>  Song name: 8. (Don't) fear the silence   
+28/10/2017 10:48:13, ProcessProToolsFile, line 200:>  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 10:48:13, ProcessProToolsFile, line 204:>  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 10:48:21, ProcessProToolsFile, line 208:>  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 10:48:21, Process, line 114:----------->  Processing completed, time in seconds: 118.795312s
+28/10/2017 10:51 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:51:24, .ctor, line 36:-------------->  
+28/10/2017 10:52:21, OutputFolderClick, line 367:->  
+28/10/2017 10:53 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:53:05, .ctor, line 36:-------------->  
+28/10/2017 10:53:08, OutputFolderClick, line 367:->  
+28/10/2017 10:53 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 10:53:25, .ctor, line 36:-------------->  
+28/10/2017 11:04 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:04:09, .ctor, line 38:-------------->  
+28/10/2017 11:04:18, SplitButton_Click, line 61:-->  
+28/10/2017 11:04:18, Process, line 84:------------>  
+28/10/2017 11:04:18, Process, line 99:------------>  Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+28/10/2017 11:04:18, Process, line 114:----------->  Destination path: C:\Users\copyhere2\Google Drive\Ultimatium\Nelonen\Music/
+28/10/2017 11:04:18, ProcessProToolsFile, line 166:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 239:>  Found timeformat code: 30
+28/10/2017 11:04:18, ProcessProToolsFile, line 244:>  Found M A R K E R S  L I S T I N G
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 13
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:11:40.3330000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 01:05:23.4750000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 4. Mindcaptives               
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 14, whole line: 2   	00:12:19:19  	344|1             	Ticks    	[s]10. Ghost of yesterday        	, splitted at 4: [s]10. Ghost of yesterday        , start time: 00:12:19.6330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 195:>  Start string before next end, use it, index 15
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:17:27.2660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:59:36.5420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 10. Ghost of yesterday        
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 15, whole line: 3   	00:17:27:08  	485|1             	Ticks    	[s]12. Together                  	, splitted at 4: [s]12. Together                  , start time: 00:17:27.2660000
+28/10/2017 11:04:18, ProcessProToolsFile, line 195:>  Start string before next end, use it, index 16
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:26:18.2660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:50:45.5420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 12. Together                  
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 16, whole line: 4   	00:26:18:08  	915|1             	Ticks    	[s]5. The seer                   	, splitted at 4: [s]5. The seer                   , start time: 00:26:18.2660000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 17
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:31:09.5330000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:45:54.2750000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 5. The seer                   
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 18, whole line: 5   	00:31:21:16  	1209|1            	Ticks    	[s]2. Run like the wind          	, splitted at 4: [s]2. Run like the wind          , start time: 00:31:21.5330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 19
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:35:05.0660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:41:58.7420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 2. Run like the wind          
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 20, whole line: 6   	00:36:56:03  	1385|1            	Ticks    	[s]6. Dark cold day              	, splitted at 4: [s]6. Dark cold day              , start time: 00:36:56.1000000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 21
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:42:33.9660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:34:29.8420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 6. Dark cold day              
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 22, whole line: 7   	00:42:41:10  	1583|1            	Ticks    	[s]7. Remorse                    	, splitted at 4: [s]7. Remorse                    , start time: 00:42:41.3330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 23
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:47:34.6660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:29:29.1420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 7. Remorse                    
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 24, whole line: 8   	00:47:42:01  	1746|1            	Ticks    	[s]11. Scream                    	, splitted at 4: [s]11. Scream                    , start time: 00:47:42.0330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 25
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:52:37.1000000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:24:26.7080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 11. Scream                    
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 26, whole line: 9   	00:52:58:08  	1990|1            	Ticks    	[s]1. Vengeance                  	, splitted at 4: [s]1. Vengeance                  , start time: 00:52:58.2660000
+28/10/2017 11:04:18, ProcessProToolsFile, line 195:>  Start string before next end, use it, index 27
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 00:56:54.8330000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:20:08.9750000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 1. Vengeance                  
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 27, whole line: 10  	00:56:54:25  	2128|1            	Ticks    	[s]9. Digital tower              	, splitted at 4: [s]9. Digital tower              , start time: 00:56:54.8330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 195:>  Start string before next end, use it, index 28
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 01:05:18.8330000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:11:44.9750000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 9. Digital tower              
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 28, whole line: 11  	01:05:18:25  	2296|1            	Ticks    	[s]3. Hall of Heroes             	Start, splitted at 4: [s]3. Hall of Heroes             , start time: 01:05:18.8330000
+28/10/2017 11:04:18, ProcessProToolsFile, line 195:>  Start string before next end, use it, index 29
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 01:08:25.8660000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:08:37.9420000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 3. Hall of Heroes             
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 183:>  Found start at index 29, whole line: 12  	01:08:25:26  	2406|1            	Ticks    	[s]8. (Don't) fear the silence   	, splitted at 4: [s]8. (Don't) fear the silence   , start time: 01:08:25.8660000
+28/10/2017 11:04:18, ProcessProToolsFile, line 202:>  End stringfound, use it, index 30
+28/10/2017 11:04:18, TimecodeToTimespan, line 273:>  
+28/10/2017 11:04:18, ProcessProToolsFile, line 211:>  EndTime 01:13:11.7000000, tolta time: 01:17:03.8080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 213:>  final endTime 00:03:52.1080000
+28/10/2017 11:04:18, ProcessProToolsFile, line 223:>  Song name: 8. (Don't) fear the silence   
+28/10/2017 11:04:18, Process, line 124:----------->  Processing 4. Mindcaptives               , start: 00:00:00, end: 01:05:23.4750000
+28/10/2017 11:04:18, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:04:18, Process, line 133:----------->  destinationFileName: 4.Mindcaptives
+28/10/2017 11:04:39, Process, line 124:----------->  Processing 10. Ghost of yesterday        , start: 00:12:19.6330000, end: 00:59:36.5420000
+28/10/2017 11:04:39, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:04:39, Process, line 133:----------->  destinationFileName: 10.Ghostofyesterday
+28/10/2017 11:04:48, Process, line 124:----------->  Processing 12. Together                  , start: 00:17:27.2660000, end: 00:50:45.5420000
+28/10/2017 11:04:48, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:04:48, Process, line 133:----------->  destinationFileName: 12.Together
+28/10/2017 11:05:03, Process, line 124:----------->  Processing 5. The seer                   , start: 00:26:18.2660000, end: 00:45:54.2750000
+28/10/2017 11:05:03, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:03, Process, line 133:----------->  destinationFileName: 5.Theseer
+28/10/2017 11:05:11, Process, line 124:----------->  Processing 2. Run like the wind          , start: 00:31:21.5330000, end: 00:41:58.7420000
+28/10/2017 11:05:11, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:11, Process, line 133:----------->  destinationFileName: 2.Runlikethewind
+28/10/2017 11:05:18, Process, line 124:----------->  Processing 6. Dark cold day              , start: 00:36:56.1000000, end: 00:34:29.8420000
+28/10/2017 11:05:18, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:18, Process, line 133:----------->  destinationFileName: 6.Darkcoldday
+28/10/2017 11:05:28, Process, line 124:----------->  Processing 7. Remorse                    , start: 00:42:41.3330000, end: 00:29:29.1420000
+28/10/2017 11:05:28, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:28, Process, line 133:----------->  destinationFileName: 7.Remorse
+28/10/2017 11:05:37, Process, line 124:----------->  Processing 11. Scream                    , start: 00:47:42.0330000, end: 00:24:26.7080000
+28/10/2017 11:05:37, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:37, Process, line 133:----------->  destinationFileName: 11.Scream
+28/10/2017 11:05:45, Process, line 124:----------->  Processing 1. Vengeance                  , start: 00:52:58.2660000, end: 00:20:08.9750000
+28/10/2017 11:05:45, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:45, Process, line 133:----------->  destinationFileName: 1.Vengeance
+28/10/2017 11:05:52, Process, line 124:----------->  Processing 9. Digital tower              , start: 00:56:54.8330000, end: 00:11:44.9750000
+28/10/2017 11:05:52, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:05:52, Process, line 133:----------->  destinationFileName: 9.Digitaltower
+28/10/2017 11:06:07, Process, line 124:----------->  Processing 3. Hall of Heroes             , start: 01:05:18.8330000, end: 00:08:37.9420000
+28/10/2017 11:06:07, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:06:07, Process, line 133:----------->  destinationFileName: 3.HallofHeroes
+28/10/2017 11:06:12, Process, line 124:----------->  Processing 8. (Don't) fear the silence   , start: 01:08:25.8660000, end: 00:03:52.1080000
+28/10/2017 11:06:12, Process, line 129:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:06:12, Process, line 133:----------->  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 11:06:21, Process, line 140:----------->  Processing completed, time in seconds: 122.4065527s
+28/10/2017 11:33 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:33:31, .ctor, line 43:-------------->  
+28/10/2017 11:35 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:35:01, .ctor, line 43:-------------->  
+28/10/2017 11:35:06, CheckFile, line 63:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:35 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:35:46, .ctor, line 43:-------------->  
+28/10/2017 11:35:51, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:01, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:18, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:18, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:23, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:28, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:33, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:38, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:43, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:48, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:53, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:36:58, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:03, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:08, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:13, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:18, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:23, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:28, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:33, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:38, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:43, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:37:43, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:44, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:37:48, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:51, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:37:53, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:53, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:37:58, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:37:58, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:38:03, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:38:03, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:38:08, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:38:08, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:38:13, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:38:13, CheckFile, line 77:---------->  File had changed, wire up for processing if does not change after 5 sec
+28/10/2017 11:38:18, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:38:26, CheckFile, line 85:---------->  File had not since last check, start processing
+28/10/2017 11:38:26, Process, line 138:----------->  
+28/10/2017 11:38:26, Process, line 153:----------->  Process, txt file: D:\Ultimatium\Compositions\Fifth-bounce\Savellysta_cut.txt, WavFile: D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav
+28/10/2017 11:38:26, Process, line 168:----------->  Destination path: C:\Users\copyhere2\Google Drive\Ultimatium\Nelonen\Music/
+28/10/2017 11:38:26, ProcessProToolsFile, line 222:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 295:>  Found timeformat code: 30
+28/10/2017 11:38:26, ProcessProToolsFile, line 300:>  Found M A R K E R S  L I S T I N G
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 12, whole line: 1   	00:00:00:00  	1|1               	Ticks    	[s]4. Mindcaptives               	, splitted at 4: [s]4. Mindcaptives               , start time: 00:00:00
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 13
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:11:40.3330000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 01:04:36.0510000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 4. Mindcaptives               
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 14, whole line: 2   	00:12:19:19  	344|1             	Ticks    	[s]10. Ghost of yesterday        	, splitted at 4: [s]10. Ghost of yesterday        , start time: 00:12:19.6330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 251:>  Start string before next end, use it, index 15
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:17:27.2660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:58:49.1180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 10. Ghost of yesterday        
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 15, whole line: 3   	00:17:27:08  	485|1             	Ticks    	[s]12. Together                  	, splitted at 4: [s]12. Together                  , start time: 00:17:27.2660000
+28/10/2017 11:38:26, ProcessProToolsFile, line 251:>  Start string before next end, use it, index 16
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:26:18.2660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:49:58.1180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 12. Together                  
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 16, whole line: 4   	00:26:18:08  	915|1             	Ticks    	[s]5. The seer                   	, splitted at 4: [s]5. The seer                   , start time: 00:26:18.2660000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 17
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:31:09.5330000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:45:06.8510000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 5. The seer                   
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 18, whole line: 5   	00:31:21:16  	1209|1            	Ticks    	[s]2. Run like the wind          	, splitted at 4: [s]2. Run like the wind          , start time: 00:31:21.5330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 19
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:35:05.0660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:41:11.3180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 2. Run like the wind          
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 20, whole line: 6   	00:36:56:03  	1385|1            	Ticks    	[s]6. Dark cold day              	, splitted at 4: [s]6. Dark cold day              , start time: 00:36:56.1000000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 21
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:42:33.9660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:33:42.4180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 6. Dark cold day              
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 22, whole line: 7   	00:42:41:10  	1583|1            	Ticks    	[s]7. Remorse                    	, splitted at 4: [s]7. Remorse                    , start time: 00:42:41.3330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 23
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:47:34.6660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:28:41.7180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 7. Remorse                    
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 24, whole line: 8   	00:47:42:01  	1746|1            	Ticks    	[s]11. Scream                    	, splitted at 4: [s]11. Scream                    , start time: 00:47:42.0330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 25
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:52:37.1000000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:23:39.2840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 11. Scream                    
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 26, whole line: 9   	00:52:58:08  	1990|1            	Ticks    	[s]1. Vengeance                  	, splitted at 4: [s]1. Vengeance                  , start time: 00:52:58.2660000
+28/10/2017 11:38:26, ProcessProToolsFile, line 251:>  Start string before next end, use it, index 27
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 00:56:54.8330000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:19:21.5510000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 1. Vengeance                  
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 27, whole line: 10  	00:56:54:25  	2128|1            	Ticks    	[s]9. Digital tower              	, splitted at 4: [s]9. Digital tower              , start time: 00:56:54.8330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 251:>  Start string before next end, use it, index 28
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 01:05:18.8330000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:10:57.5510000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 9. Digital tower              
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 28, whole line: 11  	01:05:18:25  	2296|1            	Ticks    	[s]3. Hall of Heroes             	Start, splitted at 4: [s]3. Hall of Heroes             , start time: 01:05:18.8330000
+28/10/2017 11:38:26, ProcessProToolsFile, line 251:>  Start string before next end, use it, index 29
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 01:08:25.8660000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:07:50.5180000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 3. Hall of Heroes             
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 239:>  Found start at index 29, whole line: 12  	01:08:25:26  	2406|1            	Ticks    	[s]8. (Don't) fear the silence   	, splitted at 4: [s]8. (Don't) fear the silence   , start time: 01:08:25.8660000
+28/10/2017 11:38:26, ProcessProToolsFile, line 258:>  End stringfound, use it, index 30
+28/10/2017 11:38:26, TimecodeToTimespan, line 329:>  
+28/10/2017 11:38:26, ProcessProToolsFile, line 267:>  EndTime 01:13:11.7000000, tolta time: 01:16:16.3840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 269:>  final endTime 00:03:04.6840000
+28/10/2017 11:38:26, ProcessProToolsFile, line 279:>  Song name: 8. (Don't) fear the silence   
+28/10/2017 11:38:26, Process, line 178:----------->  Processing 4. Mindcaptives               , start: 00:00:00, end: 01:04:36.0510000
+28/10/2017 11:38:26, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:38:26, Process, line 187:----------->  destinationFileName: 4.Mindcaptives
+28/10/2017 11:38:46, Process, line 178:----------->  Processing 10. Ghost of yesterday        , start: 00:12:19.6330000, end: 00:58:49.1180000
+28/10/2017 11:38:46, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:38:46, Process, line 187:----------->  destinationFileName: 10.Ghostofyesterday
+28/10/2017 11:38:55, Process, line 178:----------->  Processing 12. Together                  , start: 00:17:27.2660000, end: 00:49:58.1180000
+28/10/2017 11:38:55, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:38:55, Process, line 187:----------->  destinationFileName: 12.Together
+28/10/2017 11:39:11, Process, line 178:----------->  Processing 5. The seer                   , start: 00:26:18.2660000, end: 00:45:06.8510000
+28/10/2017 11:39:11, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:11, Process, line 187:----------->  destinationFileName: 5.Theseer
+28/10/2017 11:39:20, Process, line 178:----------->  Processing 2. Run like the wind          , start: 00:31:21.5330000, end: 00:41:11.3180000
+28/10/2017 11:39:20, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:20, Process, line 187:----------->  destinationFileName: 2.Runlikethewind
+28/10/2017 11:39:27, Process, line 178:----------->  Processing 6. Dark cold day              , start: 00:36:56.1000000, end: 00:33:42.4180000
+28/10/2017 11:39:27, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:27, Process, line 187:----------->  destinationFileName: 6.Darkcoldday
+28/10/2017 11:39:37, Process, line 178:----------->  Processing 7. Remorse                    , start: 00:42:41.3330000, end: 00:28:41.7180000
+28/10/2017 11:39:37, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:37, Process, line 187:----------->  destinationFileName: 7.Remorse
+28/10/2017 11:39:45, Process, line 178:----------->  Processing 11. Scream                    , start: 00:47:42.0330000, end: 00:23:39.2840000
+28/10/2017 11:39:45, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:45, Process, line 187:----------->  destinationFileName: 11.Scream
+28/10/2017 11:39:54, Process, line 178:----------->  Processing 1. Vengeance                  , start: 00:52:58.2660000, end: 00:19:21.5510000
+28/10/2017 11:39:54, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:39:54, Process, line 187:----------->  destinationFileName: 1.Vengeance
+28/10/2017 11:40:01, Process, line 178:----------->  Processing 9. Digital tower              , start: 00:56:54.8330000, end: 00:10:57.5510000
+28/10/2017 11:40:01, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:40:01, Process, line 187:----------->  destinationFileName: 9.Digitaltower
+28/10/2017 11:40:16, Process, line 178:----------->  Processing 3. Hall of Heroes             , start: 01:05:18.8330000, end: 00:07:50.5180000
+28/10/2017 11:40:16, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:40:16, Process, line 187:----------->  destinationFileName: 3.HallofHeroes
+28/10/2017 11:40:21, Process, line 178:----------->  Processing 8. (Don't) fear the silence   , start: 01:08:25.8660000, end: 00:03:04.6840000
+28/10/2017 11:40:21, Process, line 183:----------->  Song name without invalid characters: System.Linq.Enumerable+WhereEnumerableIterator`1[System.Char]
+28/10/2017 11:40:21, Process, line 187:----------->  destinationFileName: 8.(Don't)fearthesilence
+28/10/2017 11:40:29, Process, line 194:----------->  Processing completed, time in seconds: 123.5378818s
+28/10/2017 11:40:30, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:40:35, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:40:40, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:40:45, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:40:50, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:40:55, CheckFile, line 65:---------->  Check file D:\Ultimatium\Compositions\Fifth-bounce\Kaikki_combined.wav status
+28/10/2017 11:43 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:43:25, .ctor, line 43:-------------->  
+28/10/2017 11:59 TimeStamp
+***************************************
+*********** New session ***************
+***************************************
+28/10/2017 11:59:51, .ctor, line 43:-------------->  

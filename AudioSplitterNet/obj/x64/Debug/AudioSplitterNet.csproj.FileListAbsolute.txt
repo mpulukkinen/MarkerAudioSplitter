@@ -1,0 +1,20 @@
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\AudioSplitterNet.exe.config
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\AudioSplitterNet.exe
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\AudioSplitterNet.pdb
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\Log Easy.dll
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\NAudio.dll
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\bin\x64\Debug\NAudio.xml
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\Themes\ExpressionDark.baml
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\MainWindow.g.cs
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\App.g.cs
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet_MarkupCompile.cache
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet_MarkupCompile.lref
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\App.baml
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\MainWindow.baml
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.g.resources
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.Properties.Resources.resources
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.csproj.GenerateResource.Cache
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.csproj.CoreCompileInputs.cache
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.exe
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.pdb
+D:\Ultimatium\AudioSplitter\AudioSplitterNet\obj\x64\Debug\AudioSplitterNet.csprojResolveAssemblyReference.cache
