@@ -1,10 +1,12 @@
 ﻿using NAudio.Wave;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 public static class WavFileUtils
 {
-    public static async Task TrimWavFile(WaveFileReader inPath, string outPath, TimeSpan cutFromStart, TimeSpan cutFromEnd)
+    public static async Task TrimWavFile(WaveFileReader inPath, string outPath, TimeSpan cutFromStart, TimeSpan cutFromEnd, 
+        CancellationToken cancel)
     {
         using (WaveFileWriter writer = new WaveFileWriter(outPath, inPath.WaveFormat))
         {
@@ -17,14 +19,20 @@ public static class WavFileUtils
             endBytes = endBytes - endBytes % inPath.WaveFormat.BlockAlign;
             int endPos = (int)inPath.Length - endBytes;
 
-            await TrimWavFile(inPath, writer, startPos, endPos);
+            await TrimWavFile(inPath, writer, startPos, endPos, cancel);
         }
     }
 
-    private static async Task TrimWavFile(WaveFileReader reader, WaveFileWriter writer, int startPos, int endPos)
+    private static async Task TrimWavFile(WaveFileReader reader, WaveFileWriter writer, int startPos, int endPos, CancellationToken cancel)
     {
         reader.Position = startPos;
-        byte[] buffer = new byte[1024];
+
+        var attemptedSize = 1024;
+        var div = attemptedSize % reader.BlockAlign;
+
+        attemptedSize -= div;
+
+        byte[] buffer = new byte[attemptedSize];
         while (reader.Position < endPos)
         {
             int bytesRequired = (int)(endPos - reader.Position);
@@ -36,6 +44,11 @@ public static class WavFileUtils
                 {
                     await writer.WriteAsync(buffer, 0, bytesRead);
                 }
+            }
+
+            if (cancel.IsCancellationRequested)
+            {
+                break;
             }
         }
     }

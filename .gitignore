@@ -1,2 +1,4 @@
 .vs/
 packages/
+AudioSplitterNet/bin/
+AudioSplitterNet/obj/

@@ -15,18 +15,18 @@
             <StackPanel Orientation="Vertical" Grid.Row="0">
                 <StackPanel Orientation="Vertical" x:Name="MainPanel">
                     <StackPanel Orientation="Horizontal">
-                        <Button Content="Select wav file" Click="SelectWavButton_Click" Margin="12"/>
-                        <TextBlock x:Name="WavFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                        <Button Content="Select wav file" Click="SelectWavButton_Click" Margin="12" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="WavFile" Text="(none selected)" VerticalAlignment="Center" Margin="12" TextWrapping="Wrap" MaxWidth="500"/>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal">
-                        <Button Content="Select txt file" Click="SelectTxtButton_Click" Margin="12"/>
-                        <TextBlock x:Name="TxtFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                        <Button Content="Select txt file" Click="SelectTxtButton_Click" Margin="12" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="TxtFile" Text="(none selected)" VerticalAlignment="Center" Margin="12"  TextWrapping="Wrap" MaxWidth="500"/>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal">
-                        <Button Content="Output folder" Click="OutputFolderClick" Margin="12"/>
-                        <TextBlock x:Name="OutputFolder" Text="(none selected)" VerticalAlignment="Center" Margin="12"/>
+                        <Button Content="Output folder" Click="OutputFolderClick" Margin="12" VerticalAlignment="Center"/>
+                        <TextBlock x:Name="OutputFolder" Text="(none selected)" VerticalAlignment="Center" Margin="12"  TextWrapping="Wrap" MaxWidth="500"/>
                     </StackPanel>
 
                     <CheckBox x:Name="MonitorChanges" Margin="12" Content="Monitor changes in audio file and automatically split when changes?"/>
@@ -36,6 +36,7 @@
                     <TextBlock x:Name="Progress" Text="" VerticalAlignment="Center" Margin="12, 0, 12, 0"/>                
                 </StackPanel>
                 <Button Content="Cancel" Click="CancelButtonClick" Visibility="Collapsed" Margin="12" x:Name="CancelButton"/>
+                <TextBlock x:Name="ErrorText" Text="" VerticalAlignment="Center" Margin="12"  TextWrapping="Wrap"/>
             </StackPanel>
         </ScrollViewer>
 
@@ -58,7 +59,7 @@
                         This application uses following third-party components:<LineBreak/>
                         <Hyperlink Click="Url_Click" NavigateUri="https://github.com/naudio/NAudio">NAudio</Hyperlink>
                         <LineBreak/>
-                        <Hyperlink Click="Url_Click" NavigateUri="https://github.com/vijayanmmm/Easy-Log">Easy-Log</Hyperlink>
+                        <Hyperlink Click="Url_Click" NavigateUri="http://nlog-project.org/">NLog</Hyperlink>
                         <LineBreak/>
                         <Hyperlink Click="Url_Click" NavigateUri="https://github.com/StanislawSwierc/WpfThemesCollection">WpfThemesCollection</Hyperlink>
                     </TextBlock>
