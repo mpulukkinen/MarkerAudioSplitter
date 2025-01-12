@@ -11,7 +11,6 @@ using System.Windows.Threading;
 
 public class WavFileProcesser
 {
-
     private struct SplitInfo
     {
         public string SongName;
@@ -20,13 +19,13 @@ public class WavFileProcesser
     }
 
     private List<SplitInfo> _splits = new List<SplitInfo>();
-    int _totalCount;
+    private int _totalCount;
 
     public WavFileProcesser()
-	{
-	}
+    {
+    }
 
-    public async Task ProcessFile(string txtFile, string wavFile, string outputFolder, 
+    public async Task ProcessFile(string txtFile, string wavFile, string outputFolder,
         TextBlock errorText, TextBlock progress, Dispatcher dispatcher, CancellationToken cancellation)
     {
         dispatcher.Invoke(() => errorText.Text = "");
@@ -46,7 +45,7 @@ public class WavFileProcesser
             return;
         }
 
-        MainWindow.Log($"Process, txt file: {txtFile}, WavFile: {wavFile}");        
+        MainWindow.Log($"Process, txt file: {txtFile}, WavFile: {wavFile}");
 
         var file = new FileInfo(wavFile);
 
@@ -73,12 +72,12 @@ public class WavFileProcesser
                         break;
                     }
 
-                    MainWindow.Log($"Processing {split.SongName}, start: {split.StartTime}, end: {split.EndTime}");
+                    MainWindow.Log($"Processing {split.SongName}, cut from start: {split.StartTime}, cut from end: {split.EndTime}");
 
                     var invalidChars = Path.GetInvalidFileNameChars();
                     var invalidCharsRemoved = split.SongName.Where(x => !invalidChars.Contains(x));
 
-                    MainWindow.Log($"Song name without invalid characters: {invalidCharsRemoved.ToString()}");
+                    MainWindow.Log($"Song name without invalid characters: {string.Join("", invalidCharsRemoved)}");
 
                     var destinationFileName = String.Concat(invalidCharsRemoved.Where(c => !char.IsWhiteSpace(c)));
 
@@ -91,7 +90,7 @@ public class WavFileProcesser
 
                 MainWindow.Log($"Processing completed, time in seconds: {DateTime.Now.Subtract(totalTime).TotalSeconds}s");
 
-                System.Diagnostics.Process.Start(destinationPath); 
+                System.Diagnostics.Process.Start(destinationPath);
             }
         }
 
@@ -99,9 +98,9 @@ public class WavFileProcesser
         GC.WaitForFullGCComplete();
         var memoryAfter = GC.GetTotalMemory(true);
         var erotus = memoryAfter - memoryBefore;
-    }    
+    }
 
-    private void ProcessProToolsFile(WaveFileReader inputFile, FileInfo file, string txtFile, 
+    private void ProcessProToolsFile(WaveFileReader inputFile, FileInfo file, string txtFile,
         TextBlock progress, Dispatcher dispatcher)
     {
         MainWindow.Log("");
